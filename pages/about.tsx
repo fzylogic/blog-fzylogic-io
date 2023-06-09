@@ -7,7 +7,7 @@ import { MDXComponents } from '@/components/MDXComponents'
 const DEFAULT_LAYOUT = 'AuthorLayout'
 
 export const getStaticProps = async () => {
-  const author = allAuthors.find((p) => p.slug === 'default')
+  const author = allAuthors.find((p) => p.slug === 'fzylogic')
   return { props: { author } }
 }
 
