@@ -1,0 +1,16 @@
+---
+title: Introducing the Dirk malware scanner
+date: 2023-06-09
+tags: ['rust', 'security', 'projects']
+draft: false
+summary: Dirk is an experiment in creating a malware scanning daemon
+---
+
+Still in the PoC phase (which it honestly may never exit), Dirk is an interface to the Yara scanning engine that is
+meant to be run in an isolated environment away from the files being scanned. This allows you to scan untrusted files
+without the worry of local security vulnerabilities being exploited by bad actors (think 0day exploits in common tools
+such as `file`, `grep`, or even Yara itself). It also supports more advanced features such as dynamic analysis of PHP
+code via ephemeral podman-based containers that utilize PHP's Xdebug module, which can help greatly when dealing with
+heavily obfuscated code.
+
+[Dirk GitHub Page](https://github.com/fzylogic/dirk)
