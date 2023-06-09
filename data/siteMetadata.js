@@ -11,7 +11,7 @@ const siteMetadata = {
   siteUrl: 'https://blog.fzylogic.io',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'jhanmer@gmail.com',
   github: 'https://github.com/fzylogic',
