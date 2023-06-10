@@ -12,7 +12,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/FuzzyBlogic-logo-svg.svg',
   email: 'jhanmer@gmail.com',
   github: 'https://github.com/fzylogic',
   twitter: 'https://twitter.com/fzylogic',
@@ -49,7 +49,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'preferred_color_scheme',
       // theme when dark mode
       darkTheme: 'transparent_dark',
       // If the theme option above is set to 'custom`
